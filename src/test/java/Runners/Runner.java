@@ -16,7 +16,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features = "src/resources/java/Features", glue = "Steps",tags = { "@Challenge" })
+@CucumberOptions(features = "src/resources/java/Features", glue = "Steps",tags = { "" })
 public class Runner extends AbstractTestNGCucumberTests {
 
 
